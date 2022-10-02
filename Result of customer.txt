@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class result {
+	
+	public static void main(String[ ]args) {
+		
+Scanner in=new Scanner(System.in);
+System.out.println("Enter the customer id:" + " ");
+String id=in.next();
+System.out.println("Enter the customer name:"+"");
+String name=in.next();
+System.out.println("Enter the customer address:"+ " ");
+String address=in.next();
+System.out.println("Enter the customer mobileno:"+ " ");
+String mobileno=in.next();
+System.out.println("Enter the customer state:"+" ");
+String state=in.next();
+System.out.println("Enter the customer city:"+ " ");
+String city=in.next();
+System.out.println("Enter the customer mail:"+ " ");
+String mail=in.next();
+}}
