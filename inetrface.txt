@@ -1,0 +1,6 @@
+package myProject;
+public interface Electricitybill {
+     void calculation();
+}
+
+
