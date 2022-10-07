@@ -1,0 +1,43 @@
+package myProject;
+
+import java.util.Scanner;
+
+public class TestElectricitybill {
+
+	public static void main(String[] args) {
+	
+	    	Billing1 billing1=new Billing1();
+	    	Billing2 billing2=new Billing2();
+	    	Billing3 billing3=new Billing3();
+	    	Billing4 billing4=new Billing4();
+            Electricitybill electricitybill;
+            
+            
+                      electricitybill=billing1;
+                      Scanner sc = new Scanner(System.in);
+                      double units;
+                      System.out.println("Enter the no.of units consumed");
+                      units=sc.nextDouble();
+	if(units>=0&&units<=100)
+	     {
+	System.out.println("Bill amount="+(25+units*2.6));
+                          }
+                     electricitybill=billing2;
+                   if(units>100&&units<=300) 
+                        {
+	System.out.println("Bill amount="+(50+units*3.35));
+	}   
+                     electricitybill=billing3;
+                     if(units>300&&units<=500)
+                     {
+                      System.out.println("Bill amount="+(50+units*3.35));
+                      }   
+                      electricitybill=billing4;
+                      if(units>500&&units<=1000)
+                      {
+                   System.out.println("Bill amount="+(50+units*3.35)); 
+	}}
+}	    
+
+	    	
+
