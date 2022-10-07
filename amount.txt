@@ -1,0 +1,30 @@
+package myProject;
+import java.util.Scanner;
+public class amount {
+    public Electricitybill getElectricitybill(String ElectricitybillType) {
+  	  if(ElectricitybillType == null){
+	         return null;
+	      }	
+  	  Scanner sc=new Scanner(System.in);
+  			
+  			 double units;
+    System.out.println("Enter the no.of units consumed");
+    units=sc.nextDouble();
+    if(units>=0&&units<=100)
+    {
+ 	   System.out.println("Bill amount="+(25+units*2.6));   
+    }
+    else if(units>100&&units<=300)
+    {
+ 	   System.out.println("Bill amount="+(50+units*3.35));   
+    }
+    else if(units>300&&units<=500)
+    {
+ 	   System.out.println("Bill amount="+(75+units*5.4));   
+    }
+    else
+    {
+ 	   System.out.println("Bill amount="+(100+units*8.5)); 
+    }
+      
+	return null;}}
