@@ -1,0 +1,10 @@
+package Electricitybill;
+import java.util.Scanner;
+public class TestElectricitybill {
+public static void main(String[] args) {
+	Billing1 billing1=new Billing1();
+                     Billing2 billing2=new Billing2();
+                     Billing3 billing3=new Billing3();
+	Billing4 billing4=new Billing4();
+           
+    }}	    	
