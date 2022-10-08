@@ -1,0 +1,18 @@
+package myProject;
+
+import java.util.Scanner;
+
+public class Billing4 {
+	Scanner sc=new Scanner(System.in);
+	double units;{
+        System.out.println("Enter the no.of units consumed");
+
+units=sc.nextDouble();
+if(units>=500&&units<=1000)
+{
+System.out.println("Bill amount="+(100+units*8.5));   
+}
+else {
+	System.out.println("Enter the amount less than 1001");
+}
+ }}
